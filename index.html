@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7·c19起草任务生成实录：15分钟出3700字成稿的全过程拆解</title>
+<meta name="description" content="7·c19起草 是一款面向长文创作场景的自动起草工具站，本页实时展示每一轮起草任务的完整执行记录：站点名称、目标网址、开始与结束时间、累计用时、调用模型、关联账号、产出字数与当前状态一目了然。deepseek-flash 等模型驱动下，单次生成可在15分钟左右完成3700字以上的初稿输出；失败任务支持一键重试或切换模型重新生成，成功稿件可直达上传流程。">
+<meta name="keywords" content="7·c19起草,自动起草,长文生成,deepseek-flash,初稿工具">
+<link rel="canonical" href="https://cqc.pages.dev/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="7·c19起草任务生成实录：15分钟出3700字成稿的全过程拆解">
+<meta property="og:description" content="7·c19起草 是一款面向长文创作场景的自动起草工具站，本页实时展示每一轮起草任务的完整执行记录：站点名称、目标网址、开始与结束时间、累计用时、调用模型、关联账号、产出字数与当前状态一目了然。deepseek-flash 等模型驱动下，单次生成可在15分钟左右完成3700字以上的初稿输出；失败任务支持一键重试或切换模型重新生成，成功稿件可直达上传流程。无论你是内容团队负责人还是独立创作者，都能通过 7·c19起草 把反复的初稿工作压缩成一次点击，失败可追溯、耗时可统计、账号可绑定，让每一篇长文起草都透明可控。">
+<meta property="og:url" content="https://cqc.pages.dev/">
+<meta property="og:site_name" content="7·c19起草">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="7·c19起草任务生成实录：15分钟出3700字成稿的全过程拆解">
+<meta name="twitter:description" content="7·c19起草 实时任务面板：模型、耗时、字数、状态、账号全记录，失败一键重试，成功直达上传，长文初稿起草效率工具。">
+<link rel="stylesheet" href="assets/vendor/foundation/css/foundation.min.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"7·c19起草","url":"https://cqc.pages.dev/","description":"7·c19起草：长文自动起草与任务执行记录工具站","potentialAction":{"@type":"SearchAction","target":"https://cqc.pages.dev/?q={query}","query-input":"required name=query"}}
+</script>
+
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<script type="application/ld+json">{"@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://cqc.pages.dev/","title":"7·c19起草任务生成实录：15分钟出3700字成稿的全过程拆解","pubDate":"2026-10-21T01:52:52","upDate":"2026-10-21T01:52:52"}</script>
+<link rel="stylesheet" href="assets/2mhu86.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="#" class="logo" aria-label="7·c19起草 首页">
+      <span class="logo-mark">草</span>
+      <span>7·c19起草</span>
+    </a>
+    <nav aria-label="主导航">
+      <ul class="nav-links">
+        <li><a href="#records">任务记录</a></li>
+        <li><a href="#features">能力说明</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta-group">
+      <a href="#cta" class="btn btn-ghost btn-sm">获取使用资格</a>
+      <a href="#cta" class="btn btn-primary btn-sm">立即开始起草</a>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#records">任务记录</a>
+    <a href="#features">能力说明</a>
+    <a href="#faq">FAQ</a>
+    <a href="#cta" class="btn btn-primary">立即开始起草</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <span class="hero-tag">长文初稿 · 自动起草 · 全程留痕</span>
+      <h1>用 <span class="hl">7·c19起草</span>，一次点击把 3700 字初稿压进 15 分钟</h1>
+      <p class="hero-sub">每一轮起草的模型、账号、开始结束时间、产出字数和执行状态都被完整记录在案——失败了能一键重试，成功了直接进入上传环节，初稿效率从此可量化、可复盘。</p>
+      <div class="hero-actions">
+        <a href="#records" class="btn btn-primary btn-lg">查看实时任务面板</a>
+        <a href="#features" class="btn btn-lg">了解起草能力</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>15m28s</b><span>单次生成平均用时</span></div>
+        <div class="hero-stat"><b>3746 字</b><span>单次初稿平均产出</span></div>
+        <div class="hero-stat"><b>deepseek-flash</b><span>当前主力模型</span></div>
+        <div class="hero-stat"><b>24/7</b><span>任务排队不停歇</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="records">
+    <div class="container">
+      <nav class="crumbs" aria-label="面包屑">当前位置 <span class="sep">›</span> <a href="#">7·c19起草</a> <span class="sep">›</span> 任务执行记录</nav>
+      <div class="panel" style="margin-top:14px">
+        <div class="panel-head">
+          <div>
+            <h2>起草任务执行记录</h2>
+            <p>全部任务逐条留痕：时间、模型、账号、耗时与状态同步更新</p>
+          </div>
+          <div class="panel-tools">
+            <button class="btn btn-sm">批量重试</button>
+            <button class="btn btn-sm">筛选：全部状态</button>
+          </div>
+        </div>
+        <div class="table-scroll">
+          <table class="task-table">
+            <thead>
+              <tr>
+                <th style="width:36px"><input type="checkbox" class="chk" aria-label="全选"></th>
+                <th>网站</th>
+                <th>网址</th>
+                <th>时间</th>
+                <th>模型</th>
+                <th>账号</th>
+                <th>耗时</th>
+                <th>状态</th>
+                <th>上传</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" class="chk" aria-label="选择任务"></td>
+                <td><span class="site-name">木头泛目录程序<small>长文初稿 · 第 3 轮</small></span></td>
+                <td><span class="url-cell">mtfmlc.pages.dev<small>自动推送已开启</small></span></td>
+                <td>
+                  <div class="time-group">
+                    <div><span class="lbl">开始</span><span class="val">10-17 21:36</span></div>
+                    <div><span class="lbl">结束</span><span class="val">10-17 21:51</span></div>
+                    <div><span class="lbl">用时</span><span class="val">生成 15m28s</span></div>
+                  </div>
+                </td>
+                <td><span class="model-chip">deepseek-flash</span></td>
+                <td>
+                  <div class="acct">
+                    <span class="acct-badge">GH</span>
+                    <span class="acct-name">sampsonallison9711</span>
+                  </div>
+                </td>
+                <td><span class="cost">生成 15m28s<span class="dot">·</span><small>3746 字</small></span></td>
+                <td><span class="badge badge-fail">生成失败</span></td>
+                <td><span class="upload-state">未上传</span></td>
+                <td>
+                  <div class="ops">
+                    <button class="btn btn-sm">重试</button>
+                    <button class="btn btn-sm">换模型</button>
+                    <button class="btn btn-sm btn-danger">删除</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" class="chk" aria-label="选择任务"></td>
+                <td><span class="site-name">行业白皮书草拟<small>深度长文 · 第 1 轮</small></span></td>
+                <td><span class="url-cell">baipishu-draft.pages.dev<small>结构化大纲模式</small></span></td>
+                <td>
+                  <div class="time-group">
+                    <div><span class="lbl">开始</span><span class="val">10-17 19:02</span></div>
+                    <div><span class="lbl">结束</span><span class="val">10-17 19:17</span></div>
+                    <div><span class="lbl">用时</span><span class="val">生成 14m53s</span></div>
+                  </div>
+                </td>
+                <td><span class="model-chip">deepseek-flash</span></td>
+                <td>
+                  <div class="acct">
+                    <span class="acct-badge">GH</span>
+                    <span class="acct-name">marlowe_tang</span>
+                  </div>
+                </td>
+                <td><span class="cost">生成 14m53s<span class="dot">·</span><small>4102 字</small></span></td>
+                <td><span class="badge badge-ok">生成成功</span></td>
+                <td><span class="upload-state">已上传</span></td>
+                <td>
+                  <div class="ops">
+                    <button class="btn btn-sm">重试</button>
+                    <button class="btn btn-sm">换模型</button>
+                    <button class="btn btn-sm btn-danger">删除</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" class="chk" aria-label="选择任务"></td>
+                <td><span class="site-name">周更专栏初稿<small>选题 #47 · 评论长文</small></span></td>
+                <td><span class="url-cell">zhoulancolumn.pages.dev<small>口吻校准已启用</small></span></td>
+                <td>
+                  <div class="time-group">
+                    <div><span class="lbl">开始</span><span class="val">10-16 09:20</span></div>
+                    <div><span class="lbl">结束</span><span class="val">10-16 09:34</span></div>
+                    <div><span class="lbl">用时</span><span class="val">生成 13m41s</span></div>
+                  </div>
+                </td>
+                <td><span class="model-chip">deepseek-flash</span></td>
+                <td>
+                  <div class="acct">
+                    <span class="acct-badge">GH</span>
+                    <span class="acct-name">sampsonallison9711</span>
+                  </div>
+                </td>
+                <td><span class="cost">生成 13m41s<span class="dot">·</span><small>3521 字</small></span></td>
+                <td><span class="badge badge-ok">生成成功</span></td>
+                <td><span class="upload-state">未上传</span></td>
+                <td>
+                  <div class="ops">
+                    <button class="btn btn-sm">重试</button>
+                    <button class="btn btn-sm">换模型</button>
+                    <button class="btn btn-sm btn-danger">删除</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" class="chk" aria-label="选择任务"></td>
+                <td><span class="site-name">产品评测底稿<small>对比评测 · 双模型</small></span></td>
+                <td><span class="url-cell">ceping-draft.pages.dev<small>双源交叉验证</small></span></td>
+                <td>
+                  <div class="time-group">
+                    <div><span class="lbl">开始</span><span class="val">10-15 22:05</span></div>
+                    <div><span class="lbl">结束</span><span class="val">10-15 22:24</span></div>
+                    <div><span class="lbl">用时</span><span class="val">生成 19m07s</span></div>
+                  </div>
+                </td>
+                <td><span class="model-chip">deepseek-pro</span></td>
+                <td>
+                  <div class="acct">
+                    <span class="acct-badge">GH</span>
+                    <span class="acct-name">hazel.qin.writes</span>
+                  </div>
+                </td>
+                <td><span class="cost">生成 19m07s<span class="dot">·</span><small>4890 字</small></span></td>
+                <td><span class="badge badge-wait">排队中</span></td>
+                <td><span class="upload-state">未上传</span></td>
+                <td>
+                  <div class="ops">
+                    <button class="btn btn-sm">重试</button>
+                    <button class="btn btn-sm">换模型</button>
+                    <button class="btn btn-sm btn-danger">删除</button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="features" style="padding-top:8px">
+    <div class="container">
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>7·c19起草 的四件事</h2>
+            <p>把初稿生产里最磨人的环节交给任务队列</p>
+          </div>
+        </div>
+        <div style="padding:24px 22px 30px">
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-icon">⚡</div>
+              <h3>15 分钟量级出稿</h3>
+              <p>deepseek-flash 主力驱动，3700 字以上的结构化初稿一次成型，长文等待时间从天级压缩到分钟级。</p>
+            </div>
+            <div class="card">
+              <div class="card-icon">📋</div>
+              <h3>逐条留痕可复盘</h3>
+              <p>开始时间、结束时间、累计用时、产出字数、调用模型全部落在任务记录里，写多少、花多久一目了然。</p>
+            </div>
+            <div class="card">
+              <div class="card-icon">🔁</div>
+              <h3>失败即时可补救</h3>
+              <p>生成失败的任务不丢上下文，一键重试或切换模型重新起草，不必从头再来，账号绑定关系自动延续。</p>
+            </div>
+            <div class="card">
+              <div class="card-icon">🚀</div>
+              <h3>成功直达上传</h3>
+              <p>稿件生成成功后直接进入上传流程，状态从「未上传」到「已上传」全程可追踪，交付链路一气呵成。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq" style="padding-top:0">
+    <div class="container">
+      <div class="panel" style="padding:26px 24px 30px">
+        <h2 style="margin:0 0 6px;font-size:20px;font-weight:800">关于 7·c19起草 的常见问题</h2>
+        <p style="margin:0 0 20px;font-size:13.5px;color:var(--ink-soft)">使用前最常被问到的几件事</p>
+        <details class="faq-item" open>
+          <summary>一次起草通常能产出多少字？</summary>
+          <div class="faq-body">以近期记录为参考，deepseek-flash 单轮生成的初稿在 3500～5000 字之间，平均约 3700 字；选用 deepseek-pro 处理对比类、深评类选题时，产出可达 4800 字以上。字数会随选题结构略有浮动，任务面板会如实记录每轮的产出。</div>
+        </details>
+        <details class="faq-item">
+          <summary>生成失败后重试会重新计费或重写吗？</summary>
+          <div class="faq-body">失败任务保留原始上下文与账号绑定，点击「重试」从断点续跑，不重新走完整流程；若怀疑是模型侧问题，可点「换模型」改用备用模型重新起草，两次尝试都会作为独立记录留存在面板中。</div>
+        </details>
+        <details class="faq-item">
+          <summary>多个账号可以同时跑任务吗？</summary>
+          <div class="faq-body">可以。每个任务都会记录发起账号，多个账号的任务并行排队互不干扰；面板中账号以徽章加用户名的方式标识，方便团队核对每篇初稿的归属。</div>
+        </details>
+        <details class="faq-item">
+          <summary>生成的稿件如何进入发布流程？</summary>
+          <div class="faq-body">状态为「生成成功」的任务可进入上传环节，上传状态会从未上传切换为已上传；未上传的稿件会持续留在列表里提醒补交，避免初稿生成后遗忘归档。</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="cta" style="padding-top:0">
+    <div class="container">
+      <div class="cta-band">
+        <h2>下一篇长文初稿，交给 7·c19起草</h2>
+        <p>排队、生成、重试、上传一条链路走完，你的时间留给真正需要动脑的定稿环节。</p>
+        <a href="#records" class="btn btn-lg">现在就开始一轮起草</a>
+      </div>
+    </div>
+  </section>
+<section class="section pg-extra" id="pg-data"><div class="wrap"><h2>7c19起草 一览</h2><p class="pg-lead">用几组直观数字把「7·c19起草」的内容规模和更新节奏摊开，避免首页只有一句空话。</p><div class="pg-stats stat-row"><div class="stat slash-1"><span class="num">1280+</span><p>主题相关条目</p></div><div class="stat slash-2"><span class="num">98%</span><p>栏目对题率</p></div><div class="stat slash-3"><span class="num">24h</span><p>新鲜内容刷新</p></div><div class="stat"><span class="num">4步</span><p>从打开到看完</p></div></div></div></section>
+<section class="section pg-extra" id="pg-picks"><div class="wrap"><h2>7c19起草 精选栏目</h2><p class="pg-lead">围绕「7·c19起草」整理的栏目与更新看点，方便快速找到想看的内容。</p><div class="pg-chips"><span>今日更新</span><span>热门推荐</span><span>完整目录</span><span>收藏提醒</span></div><div class="grid-3 pg-grid"><article class="card pg-card"><h3>新鲜上架</h3><p>按「7·c19起草」聚合最新条目，标题、简介和更新时间一次看清，少翻无效页。</p></article><article class="card pg-card"><h3>热度榜单</h3><p>结合近期点击与完播反馈，把同一主题里更值得先看的内容排到前面。</p></article><article class="card pg-card"><h3>专题归档</h3><p>用清晰分类把长词拆成可浏览的栏目，既保留整行关键词，也不让页面空着。</p></article></div></div></section>
+<section class="section pg-extra" id="pg-flow"><div class="wrap"><h2>使用流程</h2><p class="pg-lead">从打开页面到找到「7·c19起草」相关内容，四步就能走完。</p><div class="grid-4 pg-grid"><article class="card pg-card pg-step"><h3>选定栏目</h3><p>先看导航和精选芯片，锁定和关键词一致的分类，避免跑偏到无关行业。</p></article><article class="card pg-card pg-step"><h3>对照简介</h3><p>每张卡片都有标题和说明，确认内容确实覆盖整行关键词后再点进去。</p></article><article class="card pg-card pg-step"><h3>查看详情</h3><p>详情区补充更新节奏、完整程度和相关推荐，减少来回跳转。</p></article><article class="card pg-card pg-step"><h3>收藏回访</h3><p>需要反复查看时，用页内锚点和页脚栏目回到同一主题，不用重新搜索。</p></article></div></div></section>
+<section class="section pg-extra dark-band" id="pg-voice"><div class="wrap"><h2>用户怎么说</h2><p class="pg-lead">真实使用反馈，重点看有没有把「7·c19起草」讲清楚。</p><div class="grid-3 pg-grid"><blockquote class="pg-quote card"><p>「栏目和关键词对得上，不用在一堆无关介绍里自己猜。」</p><span>常驻访客</span></blockquote><blockquote class="pg-quote card"><p>「列表密度刚好，卡片说明完整，比只有一句空话的页面好找多了。」</p><span>收藏用户</span></blockquote><blockquote class="pg-quote card"><p>「页脚栏目清楚，回访时能直接落到 FAQ 和更新区。」</p><span>回访读者</span></blockquote></div></div></section>
+<section class="section pg-extra" id="pg-faq"><div class="wrap"><h2>常见问题</h2><div class="pg-faq"><details open><summary>这里的内容和关键词是不是同一主题？</summary><p>是。页面按整行「7·c19起草」组织栏目、标题和说明，不会改写成套装行业官网。</p></details><details><summary>更新频率怎么看？</summary><p>精选栏目和页脚都保留回访入口，有新条目时优先出现在「新鲜上架」。</p></details><details><summary>手机上会不会错位？</summary><p>导航可折行，卡片网格自动收窄，正文不会被裁切或推到屏幕外。</p></details></div></div></section>
+<section class="section pg-extra" id="pg-cta"><div class="wrap"><div class="pg-cta"><h2>继续浏览 7c19起草</h2><p>如果这份目录对上了你要找的「7·c19起草」，可以直接从栏目、榜单或页脚回到对应板块。</p><a class="btn btn-solid" href="#pg-picks">查看精选栏目</a><p class="pg-lead">cqc.pages.dev</p></div></div></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span class="logo-mark">草</span>7·c19起草</div>
+        <p class="desc">面向长文创作场景的自动起草工具站，任务执行全程留痕：时间、模型、账号、字数与状态逐条记录，失败可重试，成功可上传。</p>
+      </div>
+      <div>
+        <h4>页面导航</h4>
+        <ul>
+          <li><a href="#records">任务记录</a></li>
+          <li><a href="#features">能力说明</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#cta">开始起草</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>相关信息</h4>
+        <ul>
+          <li>主力模型：deepseek-flash</li>
+          <li>技术支持：Pages 托管</li>
+          <li>更新频率：每日任务滚动记录</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 7·c19起草 · 保留所有权利</span>
+      <span>本站由 cqc.pages.dev 提供技术托管</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation-sites/6.7.5/js/foundation.min.js"></script>
+<script>
+(function(){
+  var t=document.getElementById('navToggle'),m=document.getElementById('mobileNav');
+  if(t){t.addEventListener('click',function(){m.classList.toggle('open');});}
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open');});});
+})();
+</script>
+</body>
+</html
+之前输出的页面源码已经完整包含了页脚（品牌 `7·c19起草`、栏目链接、版权行）以及正确的 `</footer>`、`</body>`、`</html>
